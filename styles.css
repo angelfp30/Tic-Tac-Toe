@@ -19,8 +19,32 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
-    background-color: f3c672;
+    background-color: #f3c672;
 }
 .square{
     background-color: #f3c672;
+    font-size: 6.6rem;
+    text-align: center;
+
+}
+.controls{
+    width: 520px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 0 auto;
+}
+input, button{
+    border-radius: 5px;
+    border:1px solid black;
+    padding: 5px;
+}
+button:hover{
+    background-color: #131010;
+    color: white;
+    cursor: pointer;
+}
+button:active{
+    background-color: black;
+    color: white;
 }
