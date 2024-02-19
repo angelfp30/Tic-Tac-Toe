@@ -6,10 +6,10 @@ body{
     background-color: #f3c672;
 }
 .title{
-    margin: 20px auto;
+    margin: 15px auto;
     width: 100%;
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
 }
 .gameboard{
     width: 400px;
@@ -47,4 +47,9 @@ button:hover{
 button:active{
     background-color: black;
     color: white;
+}
+.message{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.8rem;
 }
